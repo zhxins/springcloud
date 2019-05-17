@@ -14,6 +14,13 @@ object HelloWorld {
     return sum;
   }
 
+  def inputTestt () :Unit = {
+    print("请输入你的名字：");
+    var line = StdIn.readLine()
+    println("谢谢，你输入的是：" + line)
+  }
+
+
   def inputTest () :Unit = {
     print("请输入你的名字：");
     var line = StdIn.readLine()
